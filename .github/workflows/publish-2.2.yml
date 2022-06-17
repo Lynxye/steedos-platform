@@ -6,7 +6,7 @@ name: Publish Next Steedos Platform
 on:
   push:
      branches:
-       - release/2.2
+       - release-disabled/2.2
 jobs:
   release:
     runs-on: ubuntu-latest
